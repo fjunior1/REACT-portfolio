@@ -1,0 +1,23 @@
+header {
+  height: 200px;
+ 
+  background-size: cover;
+}
+
+header img {
+  height: inherit;
+}
+
+.header-opacity {
+  height: 200px;
+  background-color: rgba(248, 249, 250, 0.5);
+}
+
+header h1 {
+  color: darkslategray;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bolder;
+  text-align: center;
+}

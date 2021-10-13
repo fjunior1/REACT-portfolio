@@ -1,0 +1,37 @@
+.container {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow-text {
+  color: #ffeb3b;
+}
+
+.blue-text {
+  color: #2196f3;
+}
+
+.page-title {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bottom-bracket {
+  margin-top: 1.5rem;
+}
+
+
+/* mnobile */
+@media screen and (min-width: 600px) {
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
